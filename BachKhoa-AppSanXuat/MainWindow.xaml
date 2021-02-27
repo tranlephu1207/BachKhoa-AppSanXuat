@@ -1,0 +1,16 @@
+﻿<Window x:Class="BachKhoa_AppSanXuat.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BachKhoa_AppSanXuat"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid HorizontalAlignment="Center" Height="399" Margin="0,0,0,0" VerticalAlignment="Top" Width="772">
+            <DataGrid x:Name="dataGridview1" HorizontalAlignment="Left" Height="313" Margin="0,86,0,0" VerticalAlignment="Top" Width="772" SelectionChanged="DataGrid_SelectionChanged"/>
+            <Button Content="Show available tables" HorizontalAlignment="Left" Margin="292,33,0,0" VerticalAlignment="Top" Width="171" Click="Button_Click"/>
+        </Grid>
+
+    </Grid>
+</Window>

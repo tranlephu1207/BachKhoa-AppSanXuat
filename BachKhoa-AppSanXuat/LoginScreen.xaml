@@ -1,0 +1,21 @@
+﻿<Window x:Class="BachKhoa_AppSanXuat.LoginScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BachKhoa_AppSanXuat"
+        mc:Ignorable="d"
+        Title="LoginScreen" Height="400" Width="400" FontSize="14"
+        Background="#04C582">
+    <Border Background="#2E3137" CornerRadius="20" Margin="20">
+        <StackPanel Margin="20">
+            <Label Content="Login" Foreground="White" FontSize="25" HorizontalAlignment="Center" />
+            <Separator></Separator>
+            <Label Content="Username" Foreground="White" />
+            <TextBox Name="txtuserName" Background="#545D6A" Foreground="White" FontSize="18" Padding="5" />
+            <Label Content="Password" Foreground="White" />
+            <TextBox x:Name="txtPassword" Background="#545D64" Foreground="White" FontSize="18" Padding="5" />
+            <Button Name="btnSubmit" Content="Submit" Background="#545D64" Foreground="White" Margin="60 20" Padding="5" Click="btnSubmit_Click" />
+        </StackPanel>
+    </Border>
+</Window>
